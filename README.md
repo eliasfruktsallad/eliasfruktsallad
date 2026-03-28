@@ -1,180 +1,269 @@
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ║                    ELIAS - REVOLUTIONARY GITHUB PROFILE                     ║ -->
+<!-- ║                        Sleek • Modern • Premium                             ║ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-  <!-- Animated Name -->
-  <img src="https://readme-typing-svg.demolab.com?font=Inter:wght@600&size=42&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Elias;Full+Stack+Developer;React+%7C+Vue+%7C+Next+%7C+Nuxt" alt="Typing Animation" />
-
-  <br />
-
-  <!-- Subtitle -->
-  <p align="center">
-    <samp>
-      Building digital experiences with <strong>precision</strong> and <strong>passion</strong>
-    </samp>
-  </p>
-
-  <!-- Divider -->
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
+<!-- Animated Gradient Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:21262d&height=200&section=header&text=Elias&fontSize=80&fontColor=58a6ff&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Digital%20Craftsman&descSize=18&descAlignY=55&descAlign=50"/>
 
 </div>
 
-<br />
-
-<!-- Tech Stack Section -->
+<!-- Animated Typing Intro -->
 <div align="center">
 
-  ## Tech Stack
-
-  <!-- Languages -->
-  <details open>
-    <summary><b>Languages</b></summary>
-    <br />
-    <img src="https://skillicons.dev/icons?i=ts,js,php,lua,py&theme=dark&perline=5" />
-  </details>
-
-  <br />
-
-  <!-- Frontend -->
-  <details open>
-    <summary><b>Frontend</b></summary>
-    <br />
-    <img src="https://skillicons.dev/icons?i=react,vue,next,nuxt,html,css,tailwind,sass&theme=dark&perline=8" />
-  </details>
-
-  <br />
-
-  <!-- Backend & Tools -->
-  <details open>
-    <summary><b>Backend & Tools</b></summary>
-    <br />
-    <img src="https://skillicons.dev/icons?i=nodejs,postgres,mysql,docker,git,github,vscode,linux&theme=dark&perline=8" />
-  </details>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono:wght@700&size=32&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=800&lines=Architecting+Digital+Experiences;Building+Scalable+Solutions;Crafting+Pixel-Perfect+Interfaces;Engineering+The+Future)](https://git.io/typing-svg)
 
 </div>
 
-<br />
+<br/>
 
-<!-- GitHub Stats Section -->
+<!-- Glassmorphism Stats Bar -->
 <div align="center">
 
-  ## GitHub Stats
-
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=elias&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" height="180" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elias&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" />
-      </td>
-    </tr>
-  </table>
-
-  <!-- Streak Stats -->
-  <img src="https://streak-stats.demolab.com?user=elias&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff7b72&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e" width="55%" />
-
-  <!-- Activity Graph -->
-  <br /><br />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=elias&theme=github-dark&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff7b72&hide_border=true&area=true&area_color=58a6ff20" width="95%" />
+[![Profile Views](https://komarev.com/ghpvc/?username=eliasfruktsallad&label=PROFILE+VIEWS&color=0d1117&labelColor=161b22&style=for-the-badge&logo=eye&logoColor=58a6ff)](https://github.com/eliasfruktsallad)
+[![Commits](https://img.shields.io/github/last-commit/eliasfruktsallad/eliasfruktsallad?color=161b22&label=LAST+COMMIT&style=for-the-badge&labelColor=0d1117&logo=git&logoColor=238636)](https://github.com/eliasfruktsallad)
+[![Stars](https://img.shields.io/github/stars/eliasfruktsallad?color=161b22&label=STARS&style=for-the-badge&labelColor=0d1117&logo=github&logoColor=daa520)](https://github.com/eliasfruktsallad)
 
 </div>
 
-<br />
+<br/>
 
-<!-- What I Do Section -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ║                           TECH ARSENAL                                         ║ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-  ## What I Do
+## ⚡ Tech Arsenal
 
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" />
-        <br /><br />
-        <b>Modern Web Apps</b>
-        <br />
-        <sub>React, Vue, Next.js, Nuxt</sub>
-      </td>
-      <td align="center" width="33%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40" />
-        <br /><br />
-        <b>Type-Safe Code</b>
-        <br />
-        <sub>TypeScript, strict typing</sub>
-      </td>
-      <td align="center" width="33%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" height="40" />
-        <br /><br />
-        <b>Backend Solutions</b>
-        <br />
-        <sub>PHP, APIs, Databases</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="33%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" width="40" height="40" />
-        <br /><br />
-        <b>Scripting & Automation</b>
-        <br />
-        <sub>Lua, Bash, Python</sub>
-      </td>
-      <td align="center" width="33%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40" />
-        <br /><br />
-        <b>Pixel Perfect UI</b>
-        <br />
-        <sub>Tailwind, SCSS, Animations</sub>
-      </td>
-      <td align="center" width="33%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40" />
-        <br /><br />
-        <b>DevOps & Deploy</b>
-        <br />
-        <sub>Docker, CI/CD, Cloud</sub>
-      </td>
-    </tr>
-  </table>
+<!-- Main Tech Stack with Animated Grid -->
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65"/>
+<br/>TypeScript
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65"/>
+<br/>JavaScript
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65"/>
+<br/>React
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/nextjs-icon.svg" alt="Next.js" width="65" height="65"/>
+<br/>Next.js
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/vue-icon.svg" alt="Vue" width="65" height="65"/>
+<br/>Vue.js
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/nodejs-icon.svg" alt="Node.js" width="65" height="65"/>
+<br/>Node.js
+</td>
+</tr>
+</table>
+
+<!-- Detailed Skills with Skill Icons -->
+<details open>
+<summary><b>🔧 Core Technologies</b></summary>
+<br/>
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>🎨 Styling & UI</b></summary>
+<br/>
+
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink?style=for-the-badge&logo=SASS&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Framer](https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>⚙️ Backend & Infrastructure</b></summary>
+<br/>
+
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</details>
 
 </div>
 
-<br />
+<br/>
 
-<!-- Connect Section -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ║                           GITHUB METRICS                                       ║ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-  ## Connect
+## 📊 GitHub Metrics
 
-  <a href="https://github.com/elias">
-    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/elias">
-    <img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:elias@example.com">
-    <img src="https://img.shields.io/badge/Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+<!-- 3D Contribution Calendar -->
+<img src="https://github-profile-trophy.vercel.app/?username=eliasfruktsallad&theme=algolia&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=7" width="100%" alt="Trophy"/>
+
+<br/><br/>
+
+<!-- Stats Grid -->
+<table>
+<tr>
+<td width="50%">
+<img src="https://github-readme-stats.vercel.app/api?username=eliasfruktsallad&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&border_radius=12" width="100%"/>
+</td>
+<td width="50%">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eliasfruktsallad&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_radius=12&langs_count=8" width="100%"/>
+</td>
+</tr>
+</table>
+
+<!-- Streak Stats -->
+<img src="https://streak-stats.demolab.com?user=eliasfruktsallad&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff7b72&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=8b949e&border_radius=12" width="70%" alt="Streak Stats"/>
+
+<br/><br/>
+
+<!-- Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=eliasfruktsallad&theme=github-dark&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff7b72&hide_border=true&area=true&area_color=58a6ff20&border_radius=12" width="95%" alt="Activity Graph"/>
 
 </div>
 
-<br />
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ║                           EXPERTISE MATRIX                                     ║ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🎯 Expertise Matrix
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+### Frontend Architecture
+```
+React        ████████████████████ 95%
+Vue.js       ███████████████████░ 90%
+Next.js      ███████████████████░ 88%
+TypeScript   ████████████████████ 95%
+Tailwind     ████████████████████ 92%
+```
+
+</td>
+<td valign="top" width="33%">
+
+### Backend Systems
+```
+Node.js      ██████████████████░░ 85%
+PHP          █████████████████░░░ 80%
+PostgreSQL   █████████████████░░░ 82%
+API Design   ███████████████████░ 88%
+Docker       ███████████████░░░░░ 75%
+```
+
+</td>
+<td valign="top" width="33%">
+
+### DevOps & Tools
+```
+Git          ████████████████████ 95%
+Linux        ██████████████████░░ 85%
+CI/CD        ███████████████░░░░░ 78%
+Cloud        ████████████████░░░░ 80%
+Testing      █████████████████░░░ 82%
+```
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ║                           FEATURED PROJECTS                                   ║ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🚀 Featured Projects
+
+<!-- Dynamic Project Cards -->
+<a href="https://github.com/eliasfruktsallad">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=eliasfruktsallad&repo=eliasfruktsallad&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_radius=12" alt="Featured Repo"/>
+</a>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ║                           CONNECT                                              ║ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🔗 Connect
+
+<!-- Animated Social Links -->
+<a href="https://github.com/eliasfruktsallad">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=161b22" alt="GitHub"/>
+</a>
+<a href="https://linkedin.com/in/elias">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117&color=161b22" alt="LinkedIn"/>
+</a>
+<a href="mailto:elias@example.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117&color=161b22" alt="Email"/>
+</a>
+
+<br/><br/>
+
+<!-- Animated Divider -->
+<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25b7768fa11b/separator.gif" width="100%" alt="Separator"/>
+
+<br/><br/>
+
+<!-- Dynamic Quote -->
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" width="70%" alt="Quote"/>
+
+<br/><br/>
 
 <!-- Footer -->
-<div align="center">
-
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-
-  <br />
-
-  <samp>
-    <strong>Currently focused on building the future, one commit at a time.</strong>
-  </samp>
-
-  <br /><br />
-
-  <img src="https://komarev.com/ghpvc/?username=elias&color=58a6ff&style=flat-square&label=Profile+Views" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:21262d,50:161b22,100:0d1117&height=100&section=footer"/>
 
 </div>
 
-<!--
-  Note: Replace "elias" with your actual GitHub username in all URLs above.
-  Some badges use external services and may need to be updated with your actual username.
--->
+<!-- Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eliasfruktsallad/eliasfruktsallad/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eliasfruktsallad/eliasfruktsallad/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/eliasfruktsallad/eliasfruktsallad/output/github-contribution-grid-snake-dark.svg">
+</picture>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ║                              END OF PROFILE                                    ║ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
