@@ -122,11 +122,6 @@
 
 ## 📊 GitHub Metrics
 
-<!-- 3D Contribution Calendar -->
-<img src="https://github-profile-trophy.vercel.app/?username=eliasfruktsallad&theme=algolia&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=7" width="100%" alt="Trophy"/>
-
-<br/><br/>
-
 <!-- Stats Grid -->
 <table>
 <tr>
@@ -159,63 +154,43 @@
 
 ## 🎯 Expertise Matrix
 
-<table>
+<table width="100%">
 <tr>
-<td valign="top" width="33%">
+<td width="33%" valign="top">
 
-### Frontend Architecture
-```
-React        ████████████████████ 95%
-Vue.js       ███████████████████░ 90%
-Next.js      ███████████████████░ 88%
-TypeScript   ████████████████████ 95%
-Tailwind     ████████████████████ 92%
-```
+### Frontend
 
-</td>
-<td valign="top" width="33%">
-
-### Backend Systems
-```
-Node.js      ██████████████████░░ 85%
-PHP          █████████████████░░░ 80%
-PostgreSQL   █████████████████░░░ 82%
-API Design   ███████████████████░ 88%
-Docker       ███████████████░░░░░ 75%
-```
+![React](https://img.shields.io/badge/React-95%25-61DAFB?style=flat-square&logo=react&logoColor=white&labelColor=0d1117)
+![Vue.js](https://img.shields.io/badge/Vue.js-90%25-4FC08D?style=flat-square&logo=vue.js&logoColor=white&labelColor=0d1117)
+![Next.js](https://img.shields.io/badge/Next.js-88%25-white?style=flat-square&logo=next.js&logoColor=white&labelColor=0d1117)
+![TypeScript](https://img.shields.io/badge/TypeScript-95%25-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=0d1117)
+![Tailwind](https://img.shields.io/badge/Tailwind-92%25-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=0d1117)
 
 </td>
-<td valign="top" width="33%">
+<td width="33%" valign="top">
 
-### DevOps & Tools
-```
-Git          ████████████████████ 95%
-Linux        ██████████████████░░ 85%
-CI/CD        ███████████████░░░░░ 78%
-Cloud        ████████████████░░░░ 80%
-Testing      █████████████████░░░ 82%
-```
+### Backend
+
+![Node.js](https://img.shields.io/badge/Node.js-85%25-339933?style=flat-square&logo=node.js&logoColor=white&labelColor=0d1117)
+![PHP](https://img.shields.io/badge/PHP-80%25-777BB4?style=flat-square&logo=php&logoColor=white&labelColor=0d1117)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-82%25-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=0d1117)
+![API%20Design](https://img.shields.io/badge/API%20Design-88%25-FF6B6B?style=flat-square&logo=api&logoColor=white&labelColor=0d1117)
+![Docker](https://img.shields.io/badge/Docker-75%25-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)
+
+</td>
+<td width="33%" valign="top">
+
+### DevOps
+
+![Git](https://img.shields.io/badge/Git-95%25-F05032?style=flat-square&logo=git&logoColor=white&labelColor=0d1117)
+![Linux](https://img.shields.io/badge/Linux-85%25-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=0d1117)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-78%25-2088FF?style=flat-square&logo=githubactions&logoColor=white&labelColor=0d1117)
+![Cloud](https://img.shields.io/badge/Cloud-80%25-00A4EF?style=flat-square&logo=azure&logoColor=white&labelColor=0d1117)
+![Testing](https://img.shields.io/badge/Testing-82%25-8BC34A?style=flat-square&logo=jest&logoColor=white&labelColor=0d1117)
 
 </td>
 </tr>
 </table>
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ║                           FEATURED PROJECTS                                   ║ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## 🚀 Featured Projects
-
-<!-- Dynamic Project Cards -->
-<a href="https://github.com/eliasfruktsallad">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=eliasfruktsallad&repo=eliasfruktsallad&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_radius=12" alt="Featured Repo"/>
-</a>
 
 </div>
 
@@ -227,28 +202,17 @@ Testing      █████████████████░░░ 82%
 
 <div align="center">
 
-## 🔗 Connect
+## 🔗 Let's Connect
 
-<!-- Animated Social Links -->
 <a href="https://github.com/eliasfruktsallad">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=161b22" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 <a href="https://linkedin.com/in/elias">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117&color=161b22" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="mailto:elias@example.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117&color=161b22" alt="Email"/>
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
-
-<br/><br/>
-
-<!-- Animated Divider -->
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25b7768fa11b/separator.gif" width="100%" alt="Separator"/>
-
-<br/><br/>
-
-<!-- Dynamic Quote -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" width="70%" alt="Quote"/>
 
 <br/><br/>
 
@@ -256,13 +220,6 @@ Testing      █████████████████░░░ 82%
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:21262d,50:161b22,100:0d1117&height=100&section=footer"/>
 
 </div>
-
-<!-- Snake Animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eliasfruktsallad/eliasfruktsallad/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eliasfruktsallad/eliasfruktsallad/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/eliasfruktsallad/eliasfruktsallad/output/github-contribution-grid-snake-dark.svg">
-</picture>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 <!-- ║                              END OF PROFILE                                    ║ -->
