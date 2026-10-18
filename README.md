@@ -23,28 +23,13 @@ I care about **fast, quiet, well-made software**: clear typography, honest UI an
 
 <br><br>
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**Now**<br>
-<sub>Working on <a href="https://github.com/eliasfruktsallad/vk-studio">vk-studio</a></sub>
-
-</td>
-<td width="33%" valign="top">
-
-**Focus**<br>
-<sub>Product-grade frontends and the APIs behind them</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**Principles**<br>
-<sub>Ship small, measure, refine. Less but better.</sub>
-
-</td>
-</tr>
-</table>
+<a href="https://github.com/eliasfruktsallad/vk-studio">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/info-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/info-light.svg">
+  <img alt="Now: building vk-studio. Focus: product-grade frontends and the APIs behind them. Principles: ship small, measure, refine." src="./assets/info-dark.svg" width="100%">
+</picture>
+</a>
 
 <br>
 
