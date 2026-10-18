@@ -2,8 +2,15 @@ Hi, I'm Elias. I'm a web developer from Sweden who builds websites for businesse
 
 Works with: `TypeScript` `React` `Next.js` `Tailwind CSS` `Node.js` `PostgreSQL` `Lua`
 
-|![Stats](./assets/card-stats.svg)|![Top languages](./assets/card-languages.svg)|
-|-----|------|
+<table>
+<tr>
+<td><img alt="Stats" src="./assets/card-stats.svg"></td>
+<td><img alt="Top languages" src="./assets/card-languages.svg"></td>
+</tr>
+<tr>
+<td colspan="2"><img alt="Commit activity" src="./assets/card-activity.svg" width="100%"></td>
+</tr>
+</table>
 
 Above stats include private repositories, generated with [`scripts/generate.py`](scripts/generate.py).
 

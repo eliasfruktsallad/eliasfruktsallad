@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" fill="none" role="img" aria-label="Commit activity: 598 commits in 2026, peak week 93 commits.">
+  <style>text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }</style>
+  <rect width="1000" height="300" rx="6" fill="#282a36"/>
+  <text x="30" y="46" font-size="22" fill="#ff79c6">Commit Activity</text>
+  <text x="30" y="72" font-size="14" fill="#6272a4">Commits per week, private repositories included</text>
+  <text x="970" y="52" text-anchor="end" font-size="34" font-weight="600" fill="#f8f8f2">598</text>
+  <text x="970" y="74" text-anchor="end" font-size="14" fill="#6272a4">commits in 2026</text>
+  <rect x="30" y="180.0" width="940" height="1" fill="#44475a" opacity=".6"/>
+  <text x="30" y="175.0" font-size="11" fill="#6272a4">50</text>
+  <rect x="30" y="110.0" width="940" height="1" fill="#44475a" opacity=".6"/>
+  <text x="30" y="105.0" font-size="11" fill="#6272a4">100</text>
+  <path d="M31.0,250 V250.0 Q31.0,248.0 33.0,248.0 H57.3 Q59.3,248.0 59.3,250.0 V250 Z" fill="#ff79c6"/>
+  <path d="M61.3,250 V125.2 Q61.3,121.2 65.3,121.2 H85.6 Q89.6,121.2 89.6,125.2 V250 Z" fill="#ff79c6"/>
+  <path d="M91.6,250 V199.4 Q91.6,195.4 95.6,195.4 H116.0 Q120.0,195.4 120.0,199.4 V250 Z" fill="#ff79c6"/>
+  <path d="M122.0,250 V237.2 Q122.0,233.2 126.0,233.2 H146.3 Q150.3,233.2 150.3,237.2 V250 Z" fill="#ff79c6"/>
+  <path d="M152.3,250 V212.0 Q152.3,208.0 156.3,208.0 H176.6 Q180.6,208.0 180.6,212.0 V250 Z" fill="#ff79c6"/>
+  <path d="M182.6,250 V200.8 Q182.6,196.8 186.6,196.8 H206.9 Q210.9,196.8 210.9,200.8 V250 Z" fill="#ff79c6"/>
+  <path d="M212.9,250 V245.6 Q212.9,241.6 216.9,241.6 H237.3 Q241.3,241.6 241.3,245.6 V250 Z" fill="#ff79c6"/>
+  <path d="M243.3,250 V230.2 Q243.3,226.2 247.3,226.2 H267.6 Q271.6,226.2 271.6,230.2 V250 Z" fill="#ff79c6"/>
+  <path d="M273.6,250 V241.4 Q273.6,237.4 277.6,237.4 H297.9 Q301.9,237.4 301.9,241.4 V250 Z" fill="#ff79c6"/>
+  <path d="M303.9,250 V235.8 Q303.9,231.8 307.9,231.8 H328.2 Q332.2,231.8 332.2,235.8 V250 Z" fill="#ff79c6"/>
+  <path d="M334.2,250 V250.0 Q334.2,247.2 337.0,247.2 H359.7 Q362.5,247.2 362.5,250.0 V250 Z" fill="#ff79c6"/>
+  <path d="M516.2,250 V233.0 Q516.2,229.0 520.2,229.0 H540.5 Q544.5,229.0 544.5,233.0 V250 Z" fill="#ff79c6"/>
+  <path d="M546.5,250 V244.2 Q546.5,240.2 550.5,240.2 H570.8 Q574.8,240.2 574.8,244.2 V250 Z" fill="#ff79c6"/>
+  <path d="M576.8,250 V248.4 Q576.8,244.4 580.8,244.4 H601.1 Q605.1,244.4 605.1,248.4 V250 Z" fill="#ff79c6"/>
+  <path d="M667.8,250 V244.2 Q667.8,240.2 671.8,240.2 H692.1 Q696.1,240.2 696.1,244.2 V250 Z" fill="#ff79c6"/>
+  <path d="M698.1,250 V250.0 Q698.1,248.0 700.1,248.0 H724.4 Q726.4,248.0 726.4,250.0 V250 Z" fill="#ff79c6"/>
+  <path d="M728.4,250 V241.4 Q728.4,237.4 732.4,237.4 H752.7 Q756.7,237.4 756.7,241.4 V250 Z" fill="#ff79c6"/>
+  <path d="M789.1,250 V244.2 Q789.1,240.2 793.1,240.2 H813.4 Q817.4,240.2 817.4,244.2 V250 Z" fill="#ff79c6"/>
+  <path d="M819.4,250 V233.0 Q819.4,229.0 823.4,229.0 H843.7 Q847.7,229.0 847.7,233.0 V250 Z" fill="#ff79c6"/>
+  <path d="M849.7,250 V150.4 Q849.7,146.4 853.7,146.4 H874.0 Q878.0,146.4 878.0,150.4 V250 Z" fill="#ff79c6"/>
+  <path d="M880.0,250 V151.8 Q880.0,147.8 884.0,147.8 H904.4 Q908.4,147.8 908.4,151.8 V250 Z" fill="#ff79c6"/>
+  <path d="M910.4,250 V123.8 Q910.4,119.8 914.4,119.8 H934.7 Q938.7,119.8 938.7,123.8 V250 Z" fill="#ff79c6"/>
+  <text x="924.5" y="111.8" text-anchor="middle" font-size="12" font-weight="600" fill="#f8f8f2">93</text>
+  <path d="M940.7,250 V206.4 Q940.7,202.4 944.7,202.4 H965.0 Q969.0,202.4 969.0,206.4 V250 Z" fill="#ff79c6"/>
+  <rect x="30" y="250" width="940" height="1" fill="#44475a"/>
+  <text x="31.0" y="272" font-size="12" fill="#6272a4">Mar</text>
+  <text x="122.0" y="272" font-size="12" fill="#6272a4">Apr</text>
+  <text x="243.3" y="272" font-size="12" fill="#6272a4">May</text>
+  <text x="364.5" y="272" font-size="12" fill="#6272a4">Jun</text>
+  <text x="516.2" y="272" font-size="12" fill="#6272a4">Jul</text>
+  <text x="637.5" y="272" font-size="12" fill="#6272a4">Aug</text>
+  <text x="789.1" y="272" font-size="12" fill="#6272a4">Sep</text>
+  <text x="910.4" y="272" font-size="12" fill="#6272a4">Oct</text>
+</svg>
