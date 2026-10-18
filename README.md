@@ -2,7 +2,7 @@ Hi, I'm Elias. I'm a web developer from Sweden who builds websites for businesse
 
 Works with: `TypeScript` `React` `Next.js` `Tailwind CSS` `Node.js` `PostgreSQL` `Lua`
 
-|![Stats](./assets/stats.svg)|![Top languages](./assets/languages.svg)|
+|![Stats](./assets/card-stats.svg)|![Top languages](./assets/card-languages.svg)|
 |-----|------|
 
 Above stats include private repositories, generated with [`scripts/generate.py`](scripts/generate.py).

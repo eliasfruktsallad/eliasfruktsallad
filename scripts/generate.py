@@ -82,6 +82,6 @@ def languages():
     return card("Top Languages", "\n  ".join(b), label)
 
 
-(OUT / "stats.svg").write_text(stats(), encoding="utf-8")
-(OUT / "languages.svg").write_text(languages(), encoding="utf-8")
+(OUT / "card-stats.svg").write_text(stats(), encoding="utf-8")
+(OUT / "card-languages.svg").write_text(languages(), encoding="utf-8")
 print("ok")
