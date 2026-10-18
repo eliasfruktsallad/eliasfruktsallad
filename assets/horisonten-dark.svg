@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="452" viewBox="0 0 600 452" fill="none" role="img" aria-label="Horisonten RP, FiveM roleplay server">
-  <style>text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }</style>
-  <defs><clipPath id="r"><rect width="600" height="375" rx="14"/></clipPath></defs>
-  <g clip-path="url(#r)"><rect width="600" height="375" fill="#11161d"/><text x="40" y="64" font-size="13" font-weight="600" letter-spacing="2" fill="#5a636e">FIVEM ROLEPLAY SERVER</text><text x="38" y="128" font-size="46" font-weight="600" letter-spacing="-1.4" fill="#e6edf3">Horisonten RP</text><text x="40" y="164" font-size="17" fill="#8b949e">Full server build, from framework to streamed assets.</text><rect x="40" y="206" width="520" height="1" fill="#262c36"/><text x="40" y="246" font-size="15" fill="#5a636e">Resources</text><text x="190" y="246" font-size="16" fill="#e6edf3">Qbox, ox_lib, custom scripts</text><text x="40" y="284" font-size="15" fill="#5a636e">Infrastructure</text><text x="190" y="284" font-size="16" fill="#e6edf3">Migrations, tooling, docs</text><text x="40" y="322" font-size="15" fill="#5a636e">Assets</text><text x="190" y="322" font-size="16" fill="#e6edf3">Vehicles, MLOs, clothing, maps</text></g>
-  <rect x=".5" y=".5" width="599" height="374" rx="13.5" stroke="#262c36"/>
-  <text x="2" y="415" font-size="19" font-weight="600" letter-spacing="-.2" fill="#e6edf3">Horisonten RP</text>
-  <text x="2" y="443" font-size="16" fill="#8b949e">Game server development</text>
-  <text x="598" y="415" text-anchor="end" font-size="15" fill="#8b949e">github.com/Horisonten-RP ↗</text>
-</svg>

@@ -1,7 +1,7 @@
 # scripts
 
-`generate.py` renders the profile SVGs (hero, project cards with embedded screenshots, stack) in `assets/` for both GitHub themes.
+`generate.py` renders the profile SVGs in `assets/` for both GitHub themes.
 
 ```sh
-python scripts/generate.py <screenshots-dir> assets
+python scripts/generate.py assets
 ```
