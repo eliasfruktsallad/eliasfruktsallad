@@ -1,11 +1,15 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Elias. Developer, Sweden. Building calm, well-made software for the web. Stack: TypeScript, React, Next.js, Tailwind CSS, Node.js, PostgreSQL, Lua, Python." src="./assets/hero-dark.svg" width="100%">
-</picture>
+Hi, I'm Elias. I'm a web developer from Sweden who builds websites for businesses, and FiveM roleplay servers on the side.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
-  <img alt="Thanks for stopping by." src="./assets/footer-dark.svg" width="100%">
-</picture>
+Works with: `TypeScript` `React` `Next.js` `Tailwind CSS` `Node.js` `PostgreSQL` `Lua`
+
+|![Stats](./assets/stats.svg)|![Top languages](./assets/languages.svg)|
+|-----|------|
+
+Above stats include private repositories, generated with [`scripts/generate.py`](scripts/generate.py).
+
+# What I Do
+
+1. **Websites for businesses** (Next.js, TypeScript)
+   - Fast, hand-built sites for local companies: design, development and deployment, from the first sketch to launch.
+2. **Game servers** (Lua)
+   - FiveM roleplay servers built on Qbox: custom resources, in-game interfaces, database migrations and deploy tooling.
