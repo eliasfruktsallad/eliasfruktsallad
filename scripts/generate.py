@@ -1,100 +1,87 @@
-"""Generates the self-hosted SVGs for the GitHub profile README.
+"""Generates the stat cards for the GitHub profile README.
 
-Usage: python generate.py <assets-dir>
+Usage: python generate.py <octicons-dir> <assets-dir>
+The numbers are filled in by hand from the GitHub API (private repositories included).
 """
 import math
-import random
+import re
 import sys
 from pathlib import Path
 
-OUT = Path(sys.argv[1])
+ICONS = Path(sys.argv[1])
+OUT = Path(sys.argv[2])
 OUT.mkdir(parents=True, exist_ok=True)
 
 SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
 
-THEMES = {
-    "dark": dict(panel="#11161d", line="#e6edf3", text="#f0f6fc", muted="#8b949e", faint="#5a636e",
-                 rule="#262c36", accent="#ff5a36"),
-    "light": dict(panel="#f6f8fa", line="#1f2328", text="#1f2328", muted="#59636e", faint="#8c959f",
-                  rule="#e1e4e8", accent="#e5482a"),
-}
+# Dracula
+BG, TITLE, LABEL, VALUE, MARK = "#282a36", "#ff79c6", "#ffb86c", "#f8f8f2", "#6272a4"
+PALETTE = ["#ff79c6", "#8be9fd", "#ffb86c", "#f1fa8c", "#bd93f9", "#50fa7b"]
 
-W, H = 1000, 420
+STATS = [
+    ("git-commit-16", "Commits in 2026:", "595"),
+    ("flame-16", "Active repos in 2026:", "25"),
+    ("repo-16", "Total repos:", "37"),
+    ("organization-16", "Organizations:", "4"),
+    ("calendar-16", "On GitHub since:", "2021"),
+]
+
+LANGS = [("Lua", 42.2), ("TypeScript", 33.0), ("Python", 10.6), ("JavaScript", 6.7), ("Other", 7.5)]
+
+W, H = 500, 220
 
 
-def esc(s):
-    return s.replace("&", "&amp;").replace("<", "&lt;")
+def icon(name):
+    return re.search(r'<path d="([^"]+)"', (ICONS / f"{name}.svg").read_text(encoding="utf-8")).group(1)
 
 
-def svg(h, body, label):
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" fill="none" role="img" aria-label="{esc(label)}">
+def card(title, body, label):
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" fill="none" role="img" aria-label="{label}">
   <style>text {{ font-family: {SANS}; }}</style>
+  <rect width="{W}" height="{H}" rx="6" fill="{BG}"/>
+  <text x="30" y="46" font-size="22" fill="{TITLE}">{title}</text>
   {body}
 </svg>
 """
 
 
-def ridges():
-    """Rows of noisy peaks, strongest in the middle, as point lists from back to front."""
-    rnd = random.Random(7)
-    rows, n, x0, x1, cx = [], 34, 572, 936, 754
-    for i in range(n):
-        base = 112 + i * 7.6
-        bumps = [(rnd.gauss(cx, 34), rnd.uniform(12, 24), rnd.uniform(0.25, 1.0)) for _ in range(rnd.randint(3, 5))]
-        phase = rnd.uniform(0, 100)
-        pts = []
-        for x in range(x0, x1 + 1, 3):
-            env = math.exp(-((x - cx) / 105) ** 4)
-            peak = sum(a * math.exp(-((x - c) / w) ** 2) for c, w, a in bumps)
-            noise = 0.5 + 0.5 * math.sin(x * 0.13 + phase) * math.sin(x * 0.051 + phase * 1.7)
-            y = base - env * (math.tanh(peak / 1.3) * 52 + noise * 6) - rnd.uniform(0, 1.2) * env
-            pts.append((x, y))
-        rows.append((base, pts))
-    return rows
+def stats():
+    b = []
+    for i, (ic, k, v) in enumerate(STATS):
+        y = 84 + i * 27
+        b.append(f'<path transform="translate(30 {y - 13})" d="{icon(ic)}" fill="{LABEL}"/>')
+        b.append(f'<text x="54" y="{y}" font-size="15" fill="{LABEL}">{k}</text>')
+        b.append(f'<text x="230" y="{y}" font-size="15" font-weight="600" fill="{VALUE}">{v}</text>')
+    b.append(f'<path transform="translate(330 60) scale(7)" d="{icon("mark-github-16")}" fill="{MARK}"/>')
+    label = ", ".join(f"{k} {v}" for _, k, v in STATS)
+    return card("Stats", "\n  ".join(b), label)
 
 
-RIDGES = ridges()
-ACCENT_ROW = 21
-
-ROWS = [("Focus", "Interfaces and the systems behind them"),
-        ("Stack", "TypeScript, React, Next.js, Tailwind CSS"),
-        ("Also", "Node.js, PostgreSQL, Lua, Python")]
-
-
-def hero(t):
-    b = ['<defs><clipPath id="r"><rect width="1000" height="420" rx="18"/></clipPath></defs>',
-         f'<g clip-path="url(#r)"><rect width="{W}" height="{H}" fill="{t["panel"]}"/>']
-    for i, (base, pts) in enumerate(RIDGES):
-        d = "M" + " L".join(f"{x},{y:.1f}" for x, y in pts)
-        fill = d + f" L{pts[-1][0]},{base + 30:.0f} L{pts[0][0]},{base + 30:.0f} Z"
-        accent = i == ACCENT_ROW
-        b.append(f'<path d="{fill}" fill="{t["panel"]}"/>')
-        b.append(f'<path d="{d}" stroke="{t["accent"] if accent else t["line"]}" stroke-width="{1.5 if accent else 1}" '
-                 f'stroke-linejoin="round"{"" if accent else " stroke-opacity=\".85\""}/>')
-    b.append('</g>')
-    b += [
-        f'<rect x=".5" y=".5" width="999" height="419" rx="17.5" stroke="{t["rule"]}"/>',
-        f'<text x="48" y="78" font-size="13" font-weight="600" letter-spacing="2" fill="{t["faint"]}">DEVELOPER · SWEDEN</text>',
-        f'<text x="44" y="158" font-size="76" font-weight="600" letter-spacing="-2.6" fill="{t["text"]}">Elias</text>',
-        f'<text x="48" y="200" font-size="18" fill="{t["muted"]}">Building calm, well-made software for the web.</text>',
-        f'<rect x="48" y="244" width="452" height="1" fill="{t["rule"]}"/>',
-    ]
-    for i, (k, v) in enumerate(ROWS):
-        y = 288 + i * 40
-        b.append(f'<text x="48" y="{y}" font-size="15" fill="{t["faint"]}">{k}</text>')
-        b.append(f'<text x="160" y="{y}" font-size="16" fill="{t["text"]}">{esc(v)}</text>')
-    b.append(f'<text x="952" y="384" text-anchor="end" font-size="13" letter-spacing="2" fill="{t["faint"]}">EST. 2021</text>')
-    return svg(H, "\n  ".join(b), "Elias. Developer, Sweden. Building calm, well-made software for the web. Stack: TypeScript, React, Next.js, Tailwind CSS, Node.js, PostgreSQL, Lua, Python.")
+def arc(cx, cy, r0, r1, a0, a1):
+    def p(r, a):
+        return cx + r * math.cos(a), cy + r * math.sin(a)
+    large = 1 if a1 - a0 > math.pi else 0
+    (x0, y0), (x1, y1), (x2, y2), (x3, y3) = p(r1, a0), p(r1, a1), p(r0, a1), p(r0, a0)
+    return (f"M{x0:.2f},{y0:.2f} A{r1},{r1} 0 {large} 1 {x1:.2f},{y1:.2f} "
+            f"L{x2:.2f},{y2:.2f} A{r0},{r0} 0 {large} 0 {x3:.2f},{y3:.2f} Z")
 
 
-def footer(t):
-    b = [f'<circle cx="52" cy="22" r="4" fill="{t["accent"]}"/>',
-         f'<text x="66" y="27" font-size="15" fill="{t["muted"]}">Thanks for stopping by.</text>',
-         f'<text x="952" y="27" text-anchor="end" font-size="15" fill="{t["faint"]}">github.com/eliasfruktsallad</text>']
-    return svg(44, "\n  ".join(b), "Thanks for stopping by.")
+def languages():
+    b, total = [], sum(p for _, p in LANGS)
+    a = -math.pi / 2
+    for i, (name, pct) in enumerate(LANGS):
+        y = 84 + i * 27
+        col = PALETTE[i]
+        b.append(f'<rect x="30" y="{y - 12}" width="13" height="13" rx="2" fill="{col}"/>')
+        b.append(f'<text x="52" y="{y}" font-size="15" fill="{VALUE}">{name}</text>')
+        b.append(f'<text x="200" y="{y}" font-size="15" fill="{LABEL}">{pct:.1f}%</text>')
+        sweep = 2 * math.pi * pct / total
+        b.append(f'<path d="{arc(390, 128, 34, 62, a, a + sweep - 0.03)}" fill="{col}"/>')
+        a += sweep
+    label = "Top languages: " + ", ".join(f"{n} {p}%" for n, p in LANGS)
+    return card("Top Languages", "\n  ".join(b), label)
 
 
-for mode, t in THEMES.items():
-    (OUT / f"hero-{mode}.svg").write_text(hero(t), encoding="utf-8")
-    (OUT / f"footer-{mode}.svg").write_text(footer(t), encoding="utf-8")
+(OUT / "stats.svg").write_text(stats(), encoding="utf-8")
+(OUT / "languages.svg").write_text(languages(), encoding="utf-8")
 print("ok")
